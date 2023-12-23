@@ -1,3 +1,14 @@
 # Easter Eggs
 
-List all the fun and whimsical Easter Eggs you found!
+List of all Easter Eggs which i was able to find:
+
+
+## Jason
+
+Found out Jason is not dead!
+
+![Jason](../img/objectives/easter/jason.png)
+
+## Courious
+
+Interesting href
