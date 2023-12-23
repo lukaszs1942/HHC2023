@@ -1,20 +1,13 @@
 # Welcome
 
-![Group photo](./img/misc/title_image.png)
+![Group photo](./img/misc/logo.png)
 
 ## Introduction
 
-Provide a summary/overview of your report, including links to important sections like [Objectives](./objectives/o1.md) and [Easter eggs](./easter_eggs.md). This is also a good time to highlight and link to some of the awesome things you did like noteworthy hacks or custom scripts you created. Remember to make your report **fun** and **whimsical**! :wink:
+Welcome everyone to my 2023 SANS Holiday Hack Challange write-up!
 
-The below two admonition blocks explain the 50-page submission limitation and how to navigate the report. Please note that report size and submission guidelines can change, so please make sure to carefully follow any instructions provided by Santa and the elves to ensure you meet the requirements.
+There are 3 main sections. Tha page which contains introduction, answers and all easter eggs found during this journey! [Objectives](./objectives/o1.md) and [Easter eggs](./easter_eggs.md). This is also a good time to highlight and link to some of the awesome things you did like noteworthy hacks or custom scripts you created. Remember to make your report **fun** and **whimsical**! :wink:
 
-!!! note "50-page submission limit"
-    Each year there's a huge number of write-ups that need to be reviewed by the Counter Hack team. To find a good middle ground between preventing information overload and creating a write-up that can stand on its own as a learning resource, some parts, like the *navigation tip* below, are collapsed by default. Skipping over these will not take away from understanding the overall solution, but feel free to expand them to get some additional information.
-
-??? tip "Navigation tip"
-    Even with less than 50 pages, there's still quite a bit of information to read through. To make things a little easier, you can use ++"P"++ or ++","++ to go to the previous section, ++"N"++ or ++"."++ to navigate to the next section, and ++"S"++, ++"F"++, or ++"/"++ to open up the search dialog.
-
-    **TL;DR** if you keep pressing ++"N"++ or ++"."++ from this point forward, you'll hit all the content in the right order! :smile:
 
 ## Answers
 
