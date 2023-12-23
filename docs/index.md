@@ -29,13 +29,34 @@ There are 3 main sections. Tha page which contains introduction, answers and all
 ## Conclusion
 
 !!! Abstract "Narrative"
-    In SANS Holiday Hack, a tale unfolds,<br/>
-    Each event a narrative, a story it holds.<br/>
-    Progress through challenges, see it reveal,<br/>
-    A journey of puzzles, with fervent zeal.<br/>
-    Complete the game, and then you'll see,<br/>
-    The full story unlocked, as it's meant to be.<br/>
-    Include it herein, for all to hear,<br/>
-    A testament of triumph, year after year.
+A tale of a yuletide trip<br/>
+That started from a tropic port,<br/>
+Aboard this tiny ship<br/>
+Santa and his helpful elves<br/>
+To Geese Islands did go<br/>
+Continuing their merry work<br/>
+O'er sand instead of snow<br/>
+New this year: a shiny tool<br/>
+The elves logged in with glee<br/>
+What makes short work of many tasks?<br/>
+It's ChatNPT. It's ChatNPT<br/>
+From images to APIs<br/>
+This AI made elves glad<br/>
+But motivations were unknown<br/>
+So was it good or bad?<br/>
+Could it be that NPT<br/>
+Was not from off-the-shelf?<br/>
+Though we'll forgive and trust again<br/>
+We'd found a naughty elf<br/>
+This fancy AI tool of ours<br/>
+With all our work remained<br/>
+Not good or bad, our online friend<br/>
+Just did as it was <br/>
+Surely someone's taint must be<br/>
+Upon our AI crutch<br/>
+Yes indeed, this bold new <br/>
+Bore Jack Frost's icy touch<br/>
+We'll all be needed once again<br/>
+When Santa's back on snow<br/>  
 
-![Group photo](./img/misc/group_photo.png)
+![Group photo](./img/misc/santa.png)
