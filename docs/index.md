@@ -59,4 +59,4 @@ Bore Jack Frost's icy touch<br/>
 We'll all be needed once again<br/>
 When Santa's back on snow<br/>  
 
-![Group photo](./img/misc/santa.png)
+![Group photo](./img/misc/ad.png)
