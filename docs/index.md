@@ -8,22 +8,24 @@ Welcome everyone to my 2023 SANS Holiday Hack Challange write-up!
 
 There are 3 main sections. Tha page which contains introduction, answers and all easter eggs found during this journey! [Objectives](./objectives/o1.md) and [Easter eggs](./easter_eggs.md). This is also a good time to highlight and link to some of the awesome things you did like noteworthy hacks or custom scripts you created. Remember to make your report **fun** and **whimsical**! :wink:
 
+This year we have been situated across sea encompassing five distinct islands.<br/>
+![Minimap](./img/misc/minimap.png)
 
 ## Answers
 
-!!! success "1. Insert Objective 1 Title - :fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
-    Insert [your answer](./objectives/o1.md) here.
+!!! success "1. Holiday Hack Orientation - :fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [answer](./objectives/o1.md)
 
-!!! success "2. Insert Objective 2 Title - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
-    Insert [your answer](./objectives/o2.md) here.
+!!! success "2. Snowball Fight - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [window.player.body.height=1](./objectives/o2.md)
 
-!!! success "3. Insert Objective 3 Title - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star:"
-    Insert [your answer](./objectives/o3.md) here.
+!!! success "3. Linux 101 - :fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [Congratulations, you caught all the trolls and retrieved all the presents!](./objectives/o3.md)
 
-!!! success "4. Insert Objective 4 Title - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star:"
-    Insert [your answer](./objectives/o4.md) here.
+!!! success "4. Reportinator - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [input-1=0&input-2=0&input-3=1&input-4=0&input-5=0&input-6=1&input-7=0&input-8=0&input-9=1](./objectives/o4.md)
 
-!!! success "5. Insert Objective 5 Title - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star:"
+!!! success "5. Azure 101 - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
     Insert [your answer](./objectives/o5.md) here.
 
 ## Conclusion

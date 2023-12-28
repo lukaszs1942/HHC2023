@@ -105,13 +105,21 @@ nav:
     - Azure 101: 'objectives/o5.md'
   - Island of Misfit Toys:
     - Luggage Lock: 'objectives/o6.md'
-    - Ostrich Saloon: 'objectives/o7.md'
-    - Squarewheel Yard: 'objectives/o8.md'
-    - Tarnished Trove: 'objectives/o9.md'
+    - Linux PrivEsc: 'objectives/o7.md'
+    - Faster Lock Combination: 'objectives/o8.md'
+    - Hashcat: 'objectives/o15.md'
+    - Game Cartridges: Vol 1 'objectives/o9.md'
+    - Game Cartridges: Vol 2 'objectives/o10.md'
+    - Game Cartridges: Vol 3 'objectives/o11.md'
   - Film Noir Island:
-    - Chiaroscuro City: 'objectives/o10.md'
-    - Gumshoe Alley PI Office: 'objectives/o11.md'
-    - The Blacklight District: 'objectives/o12.md'
+    - Naan: 'objectives/o12.md'
+    - KQL Kraken Hunt: 'objectives/o13.md'
+    - Phish Detection Agency: 'objectives/o14.md'
+  - Pixel Island:
+    - Elf Hunt: 'objectives/o16.md'
+    - Certificate SSHenanigans: 'objectives/o17.md'
+
+
 
 - Extras:
   - Easter Eggs: 'easter_eggs.md'

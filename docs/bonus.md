@@ -2,7 +2,25 @@
 
 Fishing objective!
 
+!!! question "Request"
+    Catch twenty different species of fish that live around Geese Islands. When you're done, report your findings to Poinsettia McMittens on the Island of Misfit Toys.
+
+??? quote "Poinsettia McMittens"
+    Excuse me, but you're interrupting my fishing serenity. Oh, you'd like to know how to become as good at fishing as I am?<br/>
+    Well, first of all, thank you for noticing my flair for fishing. It's not just about looking good beside the lake, you know.
+
+??? tip "Become the Fish"
+    Perhaps there are some clues about the local aquatic life located in the HTML source code.
+
+
+
 ## Solution
+In source code we have found interesting  link:
+```
+<!-- <a href='fishdensityref.html'>[DEV ONLY] Fish Density Reference</a> -->
+```
+
+
 
 socket.send(`cast`)
 
