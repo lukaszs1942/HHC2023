@@ -12,6 +12,9 @@ Fishing objective!
 ??? tip "Become the Fish"
     Perhaps there are some clues about the local aquatic life located in the HTML source code.
 
+??? tip "Fishing Machine"
+    There are a variety of strategies for automating repetative website tasks. Tools such as AutoKey and AutoIt allow you to programmatically examine elements on the screen and emulate user inputs.
+
 
 
 ## Solution
