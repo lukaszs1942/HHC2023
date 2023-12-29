@@ -108,17 +108,16 @@ nav:
     - Linux PrivEsc: 'objectives/o7.md'
     - Faster Lock Combination: 'objectives/o8.md'
     - Hashcat: 'objectives/o15.md'
-    - Game Cartridges: Vol 1 'objectives/o9.md'
-    - Game Cartridges: Vol 2 'objectives/o10.md'
-    - Game Cartridges: Vol 3 'objectives/o11.md'
+    - Game Cartridges Vol 1: 'objectives/o8.md'
+    - Game Cartridges Vol 2: 'objectives/9.md'
+    - Game Cartridges Vol 3: 'objectives/o10.md'
   - Film Noir Island:
-    - Naan: 'objectives/o12.md'
-    - KQL Kraken Hunt: 'objectives/o13.md'
-    - Phish Detection Agency: 'objectives/o14.md'
+    - Naan: 'objectives/o11.md'
+    - KQL Kraken Hunt: 'objectives/o12.md'
+    - Phish Detection Agency: 'objectives/o13.md'
   - Pixel Island:
-    - Elf Hunt: 'objectives/o16.md'
-    - Certificate SSHenanigans: 'objectives/o17.md'
-
+    - Elf Hunt: 'objectives/o14.md'
+    - Certificate SSHenanigans: 'objectives/o16.md'
 
 
 - Extras:
