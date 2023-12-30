@@ -8,8 +8,46 @@ Welcome everyone to my 2023 SANS Holiday Hack Challange write-up!
 
 There are 3 main sections. Tha page which contains introduction, answers and all easter eggs found during this journey! [Objectives](./objectives/o1.md) and [Easter eggs](./easter_eggs.md). This is also a good time to highlight and link to some of the awesome things you did like noteworthy hacks or custom scripts you created. Remember to make your report **fun** and **whimsical**! :wink:
 
+## Destinations
 This year we have been situated across sea encompassing five distinct islands.<br/>
 ![Minimap](./img/misc/minimap.png)
+
+###     Christmas Island
+- Orientation 
+- Frosty's Beach
+- Santa's Surf Shack
+- Rudolph's Rest Resort
+- Resort Lobby
+
+### Island of Misfit Toys
+
+- Scaredy Kite Heights
+- Ostrich Saloon
+- Squarewheel Yard
+- Tarnished Trove
+
+### Film Noir Island
+
+- Chiaroscuro City
+- Gumshoe Alley PI Office
+- The Blacklight District
+
+### Pixel Island
+
+- Rainraster Cliffs
+- Driftbit Grotto
+
+### Steampunk Island
+
+- Brass Bouy Port
+- Coggoggle Marina
+- Rusty Quay
+
+### Space Island
+
+- Spaceport Point
+- Cape Cosmic
+- Zenith SGS
 
 ## Answers
 
