@@ -2,7 +2,7 @@
 icon: material/text-box-outline
 ---
 
-# Phish Detection Agency
+# Insert Objective 6 Title
 
 **Difficulty**: :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star:<br/>
 **Direct link**: [Objective6.zip](https://.../)
@@ -10,7 +10,7 @@ icon: material/text-box-outline
 ## Objective
 
 !!! question "Request"
-    Piney Sappington needs a lesson in JSON web tokens. Hack Elf Hunt and score 75 points.
+    Insert the objective description from your badge.
 
 ??? quote "Insert Elf Name"
     Copy the first part of the conversation with Elf Name here<br/>
