@@ -121,7 +121,11 @@ nav:
   - Steampunk Island:
     - Faster Lock Combination: 'objectives/o17.md'
     - The Captain's Comms: 'objectives/o18.md'
-
+    - Active Directory: 'objectives/o19.md'
+  - Space Island:
+    - Space Island Door Access Speaker: 'objectives/o20.md'
+    - Camera Access: 'objectives/o21.md'
+    - Missile Diversion: 'objectives/o22.md'
 
 - Extras:
   - Easter Eggs: 'easter_eggs.md'
