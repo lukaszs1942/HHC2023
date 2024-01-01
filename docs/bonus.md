@@ -33,7 +33,7 @@ socket.send(`reel`)
 
 ### Code blocks
 
-```
+``` jS
 // ==UserScript==
 // @name         WebSocket Hook Script with Selective JSON Processing
 // @namespace    http://tampermonkey.net/
