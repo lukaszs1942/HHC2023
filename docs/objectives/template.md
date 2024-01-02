@@ -26,6 +26,8 @@ icon: material/text-box-outline
 
 ## Solution
 
+==TEXT==
+
 This section explains the different steps taken to solve the challenge. Try to find a good balance between providing sufficient detail and not overloading the reader with too much information. Use [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/), [images](https://squidfunk.github.io/mkdocs-material/reference/images/), [diagrams](https://squidfunk.github.io/mkdocs-material/reference/diagrams/), [code blocks](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/), and [tables](https://squidfunk.github.io/mkdocs-material/reference/data-tables/) to highlight and structure important information or provide additional clarification.
 
 ### Admonitions
@@ -35,6 +37,8 @@ This section explains the different steps taken to solve the challenge. Try to f
 
 !!! info "Palm tree lighting"
     While on the island, make sure to hang your Christmas lights on a palm tree. It’s not only festive but also a great beacon for Santa to find you!
+
+
 
 ### Images
 

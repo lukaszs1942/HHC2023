@@ -90,3 +90,7 @@ article.md-content__inner {
     -webkit-mask-image: var(--md-admonition-icon--text);
     mask-image: var(--md-admonition-icon--text);
 }
+mark {
+    background-color: yellow; /* Change 'yellow' to your desired color */
+    color: black; /* Change text color if needed */
+  }
