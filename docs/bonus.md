@@ -1,4 +1,9 @@
+---
+icon: material/text-box-outline
+---
 # Bonus - Fishing
+
+## Objective
 
 Fishing objective!
 
@@ -18,22 +23,58 @@ Fishing objective!
 
 
 ## Solution
-In source code we have found interesting  link:
+In source code we have found interesting link, which will be required to catch some rare fishes:
 ```
 <!-- <a href='fishdensityref.html'>[DEV ONLY] Fish Density Reference</a> -->
 ```
 
+First we started inspecting source code and console tools.
+
+We can see requests sent to this WS endpoint: wss://2023.holidayhackchallenge.com/sail?dockSlip=4606a58c-ccff-4bbf-b9c7-66bcba107161
+
+After inspecing WS communication we can see interesting messages whenever we catch a fish.
+
+```json
+e:{"65139":{"uid":65139,"username":"LS1942","x":790.122627300308,"y":1669.9187716418694,"o":1,"vx":0,"vy":0,"config":{"colors":["plaid","black","blue"],"progress":[false,false,false,true,true,true]},"fishCaught":[{"name":"JellyChip CuddleSwimmer","description":"<-- removed -->","hash":"f71ba29843c1d46325da6e8ec821896b"}],"bearing":"spi-coggogglemarina","canFish":true,"ports":["ci-rudolphsrest","imt-squarewheelyard","imt-scaredykiteheights","imt-tarnishedtrove","spi-coggogglemarina","spi-brassbouyport","pi-rainrastercliffs","si-spaceportpoint","staging","fni-theblacklightdistrict","ci-frostysbeach","spi-rustyquay"],"showOthers":true,"keyState":0,"colors":["plaid","black","blue"],"progress":[false,false,false,true,true,true],"fishing":true,"onTheLine":"The Speckled Pizzafin Fizzflyer"}}
+```
+
+We need to make sure to properly decode those json messages and monitor onTheLine value whenever received.
+
+To catch most rare fish (Piscis Cyberneticus Skodo) we used heatmap located under https://2023.holidayhackchallenge.com/sea/fishdensityref.html . TO make use of it the best we overrided JS script with custom one. img src="assets/noise/Piscis Cyberneticus Skodo.png"
+
+```js hl_lines="13"
+
+    const ImageAssets = {
+    ship: 'assets/ship.png',
+    rod: 'assets/rod.png',
+    roddown: 'assets/roddown.png',
+    bobber: 'assets/bobber.png',
+    shipclip: 'assets/shipclip.png',
+    blocks: 'assets/blocks.png',
+    ocean: 'assets/ocean.png',
+    detail: 'assets/island_detail.png',
+    buoy: 'assets/buoy.png',
+    wave: 'assets/wave.png',
+    bump: 'assets/bump.png',
+    minimap: 'assets/minimap.png',
+    miniboat: 'assets/miniboat.png',
+    shadow: 'assets/shadow.png',
+    startflag: 'assets/startflag.png',
+    finishflag: 'assets/finishflag.png',
+    arrow: 'assets/arrow.png',
+};
+
+```
+
+This is exact place where we need to hunt for our rare specie. Heat map black colour mean you won't be able to hunt fish so we need to go white spot.
+
+![Override](img/objectives/bonus/override.png){ width="500" }
 
 
-socket.send(`cast`)
+Below we can see JS script for TamperMonkey extension. Mainly i was using ChatGPT to develop it.
 
-socket.send(`reel`)
 
-## Code
-
-### Code blocks
-
-``` jS
+```JS
 // ==UserScript==
 // @name         WebSocket Hook Script with Selective JSON Processing
 // @namespace    http://tampermonkey.net/
@@ -132,3 +173,10 @@ window.WebSocket = function(url, protocols) {
 
 })();
 ```
+
+And here we go with our final fish!
+
+![Fish](img/objectives/bonus/fish.png)
+
+!!! success "Answer"
+    Catched 171 Fish species.

@@ -96,6 +96,8 @@ Surely someone's taint must be<br/>
 Upon our AI crutch<br/>
 Yes indeed, this bold new <br/>
 Bore Jack Frost's icy touch<br/>
+Though all's returned to steady state<br/>
+There's one thing that we know<br/>
 We'll all be needed once again<br/>
 When Santa's back on snow<br/>  
 
