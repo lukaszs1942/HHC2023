@@ -1,7 +1,7 @@
 ---
 icon: material/text-box-outline
 ---
-# Bonus - Fishing
+# Bonus - Fishing Mastery
 
 ## Objective
 
@@ -30,7 +30,7 @@ In source code we have found interesting link, which will be required to catch s
 
 First we started inspecting source code and console tools.
 
-We can see requests sent to this WS endpoint: wss://2023.holidayhackchallenge.com/sail?dockSlip=4606a58c-ccff-4bbf-b9c7-66bcba107161
+We can see messages sent bidirectionally to this WebSoscket endpoint: wss://2023.holidayhackchallenge.com/sail?dockSlip=4606a58c-ccff-4bbf-b9c7-66bcba107161.
 
 After inspecing WS communication we can see interesting messages whenever we catch a fish.
 
@@ -40,7 +40,7 @@ e:{"65139":{"uid":65139,"username":"LS1942","x":790.122627300308,"y":1669.918771
 
 We need to make sure to properly decode those json messages and monitor onTheLine value whenever received.
 
-To catch most rare fish (Piscis Cyberneticus Skodo) we used heatmap located under https://2023.holidayhackchallenge.com/sea/fishdensityref.html . TO make use of it the best we overrided JS script with custom one. img src="assets/noise/Piscis Cyberneticus Skodo.png"
+To catch most rare fish (Piscis Cyberneticus Skodo) we used heatmap located here: https://2023.holidayhackchallenge.com/sea/fishdensityref.html.  The existing JavaScript script was overridden with a custom version, this piece of code was modified: img src="assets/noise/Piscis Cyberneticus Skodo.png"
 
 ```js hl_lines="13"
 
@@ -71,8 +71,10 @@ This is exact place where we need to hunt for our rare specie. Heat map black co
 ![Override](img/objectives/bonus/override.png){ width="500" }
 
 
-Below we can see JS script for TamperMonkey extension. Mainly i was using ChatGPT to develop it.
+Below we can see JS script for TamperMonkey extension.  ChatGPT was used to develop it.
 
+Example prompts:
+```write websocket script for tampermonkey extension to interact with websockets on url wss://2023.holidayhackchallenge.com/```
 
 ```JS
 // ==UserScript==
