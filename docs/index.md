@@ -1,16 +1,17 @@
 # Welcome
 
-![Group photo](./img/misc/logo.png)
 
+![Hack](./img/misc/hack.png){width=300 align=left }
 ## Introduction
 
-![Hack](./img/misc/hack.png){width=400}
+
 
 Welcome everyone to my 2023 SANS Holiday Hack Challange write-up!
 
 There are 3 main sections. The page which contains introduction, answers and all extras found during this journey! Extras section contains [Bonus](./bonus.md) and [Easter eggs](./easter_eggs.md). 
 
 I had oportunity to create GPT Apps using ChatGPT which helped me out during investigations of phishing mails in [Phish Detection Agency](./objectives/o13.md) and AI Halucinations in [Reportinator](./objectives/o4.md). Also AI was helping solving puzzles in missions including [Missile Diversion](./objectives/o22.md). AI was also used to develop code in our [Bonus](./bonus.md) mission where we automated fishing leveraging  WebSockets.
+
 
 ## Destinations
 This year we have been situated across sea encompassing five distinct islands.<br/>
@@ -108,38 +109,38 @@ This year we have been situated across sea encompassing five distinct islands.<b
 
 ## Conclusion
 
-!!! Abstract "Narrative"
-A tale of a yuletide trip<br/>
-That started from a tropic port,<br/>
-Aboard this tiny ship<br/>
-Santa and his helpful elves<br/>
-To Geese Islands did go<br/>
-Continuing their merry work<br/>
-O'er sand instead of snow<br/>
-New this year: a shiny tool<br/>
-The elves logged in with glee<br/>
-What makes short work of many tasks?<br/>
-It's ChatNPT. It's ChatNPT<br/>
-From images to APIs<br/>
-This AI made elves glad<br/>
-But motivations were unknown<br/>
-So was it good or bad?<br/>
-Could it be that NPT<br/>
-Was not from off-the-shelf?<br/>
-Though we'll forgive and trust again<br/>
-We'd found a naughty elf<br/>
-This fancy AI tool of ours<br/>
-With all our work remained<br/>
-Not good or bad, our online friend<br/>
-Just did as it was <br/>
-Surely someone's taint must be<br/>
-Upon our AI crutch<br/>
-Yes indeed, this bold new <br/>
-Bore Jack Frost's icy touch<br/>
-Though all's returned to steady state<br/>
-There's one thing that we know<br/>
-We'll all be needed once again<br/>
-When Santa's back on snow<br/>  
+??? Abstract "Narrative"
+    A tale of a yuletide trip<br/>
+    That started from a tropic port,<br/>
+    Aboard this tiny ship<br/>
+    Santa and his helpful elves<br/>
+    To Geese Islands did go<br/>
+    Continuing their merry work<br/>
+    O'er sand instead of snow<br/>
+    New this year: a shiny tool<br/>
+    The elves logged in with glee<br/>
+    What makes short work of many tasks?<br/>
+    It's ChatNPT. It's ChatNPT<br/>
+    From images to APIs<br/>
+    This AI made elves glad<br/>
+    But motivations were unknown<br/>
+    So was it good or bad?<br/>
+    Could it be that NPT<br/>
+    Was not from off-the-shelf?<br/>
+    Though we'll forgive and trust again<br/>
+    We'd found a naughty elf<br/>
+    This fancy AI tool of ours<br/>
+    With all our work remained<br/>
+    Not good or bad, our online friend<br/>
+    Just did as it was <br/>
+    Surely someone's taint must be<br/>
+    Upon our AI crutch<br/>
+    Yes indeed, this bold new <br/>
+    Bore Jack Frost's icy touch<br/>
+    Though all's returned to steady state<br/>
+    There's one thing that we know<br/>
+    We'll all be needed once again<br/>
+    When Santa's back on snow<br/>  
 
 
 Appreciation is extended to the entire team for their continued commitment to bringing fun challenges each year!
