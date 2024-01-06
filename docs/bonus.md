@@ -1,5 +1,5 @@
 ---
-icon: material/text-box-outline
+icon: material/fishbowl
 ---
 # Bonus - Fishing Mastery
 
