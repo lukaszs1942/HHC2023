@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#bonus-fishing" class="md-skip">
+        <a href="#bonus-fishing-mastery" class="md-skip">
           Skip to content
         </a>
       
@@ -1237,7 +1237,7 @@
                   
 
 
-<h1 id="bonus-fishing">Bonus - Fishing<a class="headerlink" href="#bonus-fishing" title="Permanent link">⚓︎</a></h1>
+<h1 id="bonus-fishing-mastery">Bonus - Fishing Mastery<a class="headerlink" href="#bonus-fishing-mastery" title="Permanent link">⚓︎</a></h1>
 <h2 id="objective">Objective<a class="headerlink" href="#objective" title="Permanent link">⚓︎</a></h2>
 <p>Fishing objective!</p>
 <div class="admonition question">
@@ -1262,12 +1262,12 @@ Well, first of all, thank you for noticing my flair for fishing. It's not just a
 <div class="highlight"><pre><span></span><code>&lt;!-- &lt;a href=&#39;fishdensityref.html&#39;&gt;[DEV ONLY] Fish Density Reference&lt;/a&gt; --&gt;
 </code></pre></div></p>
 <p>First we started inspecting source code and console tools.</p>
-<p>We can see requests sent to this WS endpoint: wss://2023.holidayhackchallenge.com/sail?dockSlip=4606a58c-ccff-4bbf-b9c7-66bcba107161</p>
+<p>We can see messages sent bidirectionally to this WebSoscket endpoint: wss://2023.holidayhackchallenge.com/sail?dockSlip=4606a58c-ccff-4bbf-b9c7-66bcba107161.</p>
 <p>After inspecing WS communication we can see interesting messages whenever we catch a fish.</p>
 <div class="highlight"><pre><span></span><code><span class="err">e</span><span class="p">:{</span><span class="nt">&quot;65139&quot;</span><span class="p">:{</span><span class="nt">&quot;uid&quot;</span><span class="p">:</span><span class="mi">65139</span><span class="p">,</span><span class="nt">&quot;username&quot;</span><span class="p">:</span><span class="s2">&quot;LS1942&quot;</span><span class="p">,</span><span class="nt">&quot;x&quot;</span><span class="p">:</span><span class="mf">790.122627300308</span><span class="p">,</span><span class="nt">&quot;y&quot;</span><span class="p">:</span><span class="mf">1669.9187716418694</span><span class="p">,</span><span class="nt">&quot;o&quot;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="nt">&quot;vx&quot;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="nt">&quot;vy&quot;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="nt">&quot;config&quot;</span><span class="p">:{</span><span class="nt">&quot;colors&quot;</span><span class="p">:[</span><span class="s2">&quot;plaid&quot;</span><span class="p">,</span><span class="s2">&quot;black&quot;</span><span class="p">,</span><span class="s2">&quot;blue&quot;</span><span class="p">],</span><span class="nt">&quot;progress&quot;</span><span class="p">:[</span><span class="kc">false</span><span class="p">,</span><span class="kc">false</span><span class="p">,</span><span class="kc">false</span><span class="p">,</span><span class="kc">true</span><span class="p">,</span><span class="kc">true</span><span class="p">,</span><span class="kc">true</span><span class="p">]},</span><span class="nt">&quot;fishCaught&quot;</span><span class="p">:[{</span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="s2">&quot;JellyChip CuddleSwimmer&quot;</span><span class="p">,</span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;&lt;-- removed --&gt;&quot;</span><span class="p">,</span><span class="nt">&quot;hash&quot;</span><span class="p">:</span><span class="s2">&quot;f71ba29843c1d46325da6e8ec821896b&quot;</span><span class="p">}],</span><span class="nt">&quot;bearing&quot;</span><span class="p">:</span><span class="s2">&quot;spi-coggogglemarina&quot;</span><span class="p">,</span><span class="nt">&quot;canFish&quot;</span><span class="p">:</span><span class="kc">true</span><span class="p">,</span><span class="nt">&quot;ports&quot;</span><span class="p">:[</span><span class="s2">&quot;ci-rudolphsrest&quot;</span><span class="p">,</span><span class="s2">&quot;imt-squarewheelyard&quot;</span><span class="p">,</span><span class="s2">&quot;imt-scaredykiteheights&quot;</span><span class="p">,</span><span class="s2">&quot;imt-tarnishedtrove&quot;</span><span class="p">,</span><span class="s2">&quot;spi-coggogglemarina&quot;</span><span class="p">,</span><span class="s2">&quot;spi-brassbouyport&quot;</span><span class="p">,</span><span class="s2">&quot;pi-rainrastercliffs&quot;</span><span class="p">,</span><span class="s2">&quot;si-spaceportpoint&quot;</span><span class="p">,</span><span class="s2">&quot;staging&quot;</span><span class="p">,</span><span class="s2">&quot;fni-theblacklightdistrict&quot;</span><span class="p">,</span><span class="s2">&quot;ci-frostysbeach&quot;</span><span class="p">,</span><span class="s2">&quot;spi-rustyquay&quot;</span><span class="p">],</span><span class="nt">&quot;showOthers&quot;</span><span class="p">:</span><span class="kc">true</span><span class="p">,</span><span class="nt">&quot;keyState&quot;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="nt">&quot;colors&quot;</span><span class="p">:[</span><span class="s2">&quot;plaid&quot;</span><span class="p">,</span><span class="s2">&quot;black&quot;</span><span class="p">,</span><span class="s2">&quot;blue&quot;</span><span class="p">],</span><span class="nt">&quot;progress&quot;</span><span class="p">:[</span><span class="kc">false</span><span class="p">,</span><span class="kc">false</span><span class="p">,</span><span class="kc">false</span><span class="p">,</span><span class="kc">true</span><span class="p">,</span><span class="kc">true</span><span class="p">,</span><span class="kc">true</span><span class="p">],</span><span class="nt">&quot;fishing&quot;</span><span class="p">:</span><span class="kc">true</span><span class="p">,</span><span class="nt">&quot;onTheLine&quot;</span><span class="p">:</span><span class="s2">&quot;The Speckled Pizzafin Fizzflyer&quot;</span><span class="p">}}</span>
 </code></pre></div>
 <p>We need to make sure to properly decode those json messages and monitor onTheLine value whenever received.</p>
-<p>To catch most rare fish (Piscis Cyberneticus Skodo) we used heatmap located under https://2023.holidayhackchallenge.com/sea/fishdensityref.html . TO make use of it the best we overrided JS script with custom one. img src="assets/noise/Piscis Cyberneticus Skodo.png"</p>
+<p>To catch most rare fish (Piscis Cyberneticus Skodo) we used heatmap located here: https://2023.holidayhackchallenge.com/sea/fishdensityref.html.  The existing JavaScript script was overridden with a custom version, this piece of code was modified: img src="assets/noise/Piscis Cyberneticus Skodo.png"</p>
 <div class="highlight"><pre><span></span><code><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">ImageAssets</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nx">ship</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;assets/ship.png&#39;</span><span class="p">,</span>
 <span class="w">    </span><span class="nx">rod</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;assets/rod.png&#39;</span><span class="p">,</span>
@@ -1290,7 +1290,9 @@ Well, first of all, thank you for noticing my flair for fishing. It's not just a
 </code></pre></div>
 <p>This is exact place where we need to hunt for our rare specie. Heat map black colour mean you won't be able to hunt fish so we need to go white spot.</p>
 <p><img alt="Override" src="../img/objectives/bonus/override.png" width="500" /></p>
-<p>Below we can see JS script for TamperMonkey extension. Mainly i was using ChatGPT to develop it.</p>
+<p>Below we can see JS script for TamperMonkey extension.  ChatGPT was used to develop it.</p>
+<p>Example prompts:
+<code>write websocket script for tampermonkey extension to interact with websockets on url wss://2023.holidayhackchallenge.com/</code></p>
 <div class="highlight"><pre><span></span><code><span class="c1">// ==UserScript==</span>
 <span class="c1">// @name         WebSocket Hook Script with Selective JSON Processing</span>
 <span class="c1">// @namespace    http://tampermonkey.net/</span>
