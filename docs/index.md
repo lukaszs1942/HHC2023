@@ -4,7 +4,7 @@
 ![Hack](./img/misc/hack.png){width=300 align=left }
 ## Introduction
 
-Welcome everyone to my 2023 SANS Holiday Hack Challange write-up!
+Welcome everyone to my 2023 SANS Holiday Hack Challange write-up based on [Holiday Hack 2023 Challanges!](https://2023.holidayhackchallenge.com/).
 
 There are 3 main sections. The page which contains introduction, answers and all extras found during this journey! Extras section contains [Bonus](./bonus.md) and [Easter eggs](./easter_eggs.md). 
 
