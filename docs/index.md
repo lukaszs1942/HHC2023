@@ -1,7 +1,7 @@
 # Welcome
 
 
-![Hack](./img/misc/hack.png){width=300 align=left }
+![Hack](./img/misc/hack.png){width=350 align=left }
 ## Introduction
 
 Welcome everyone to my 2023 SANS Holiday Hack Challange write-up based on [Holiday Hack 2023 Challanges!](https://2023.holidayhackchallenge.com/).
